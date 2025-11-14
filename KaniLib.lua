@@ -892,7 +892,7 @@ function Library:MakeWindow(WindowConfig)
 
 	WindowConfig = WindowConfig or {}
 
-	WindowConfig.Name = WindowConfig.Name or "KanistayHub"
+	WindowConfig.Name = WindowConfig.Name or "PazaScripting"
 
 	WindowConfig.ConfigFolder = WindowConfig.ConfigFolder or WindowConfig.Name
 
@@ -1124,7 +1124,7 @@ function Library:MakeWindow(WindowConfig)
 
 			}), "Text"),
 
-			AddThemeObject(SetProps(MakeElement("Label", "Future of Exploits", 12), {
+			AddThemeObject(SetProps(MakeElement("Label", "by Venty", 12), {
 
 				Size = UDim2.new(1, -60, 0, 12),
 
@@ -1415,7 +1415,7 @@ end)
 
 			"Downloading",
 
-			"Connect to KanistayServer", 
+			"Searching Users", 
 
 			"Starting UI"
 
