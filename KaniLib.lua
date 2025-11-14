@@ -908,7 +908,7 @@ function Library:MakeWindow(WindowConfig)
 
 	WindowConfig.IntroToggleIcon = WindowConfig.IntroToggleIcon or "rbxassetid://8834748103"
 
-	WindowConfig.IntroText = WindowConfig.IntroText or "Setting Up KanistayHub"
+	WindowConfig.IntroText = WindowConfig.IntroText or "Connecting to PazaScripts"
 
 	WindowConfig.CloseCallback = WindowConfig.CloseCallback or function() end
 
@@ -1112,7 +1112,7 @@ function Library:MakeWindow(WindowConfig)
 
 			}),
 
-			AddThemeObject(SetProps(MakeElement("Label", "KansitayHub", WindowConfig.HidePremium and 14 or 13), {
+			AddThemeObject(SetProps(MakeElement("Label", "PazaScripts", WindowConfig.HidePremium and 14 or 13), {
 
 				Size = UDim2.new(1, -60, 0, 13),
 
